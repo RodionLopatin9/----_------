@@ -6,4 +6,16 @@ padding:20px;
 }
 .li_header{
     display:inline;
+    
+}
+.link_header{
+
+text-decoration:none;
+padding:20px;
+
+}
+.header_{
+
+background-color: #236DDD;
+
 }
