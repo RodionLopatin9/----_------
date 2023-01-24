@@ -1,4 +1,6 @@
-.gg{
-
-    color:red;
+.list_header{
+list-style: none;
+margin:0;
+padding:20px;
+    
 }
