@@ -1,28 +1,29 @@
 .list_header{
-list-style: none;
-margin:0;
-padding:20px;
+    list-style: none;
+    margin:0px;
+    padding:20px;
     
 }
 .li_header{
     display:inline;
-    
+    margin-right: 150px;
 }
 .link_header{
 
-color: rgb(255, 255, 255);
-text-decoration:none;
-padding:20px;
-
+    color: rgb(255, 255, 255);
+    text-decoration:none;
+    padding:20px;
+    font-size: 25px;
 }
 .header_{
 
-background-color: #236DDD;
-
+    background-color: #236DDD;
+    margin: 0;
+    padding: 0;
 }
 .logo_rotor{
 
-   max-width: 50px; 
+   max-width: 100px; 
 
 }
 .button_header{
@@ -30,4 +31,14 @@ background-color: #236DDD;
     background-color: #00109D;
     min-width: 200px;
     min-height: 70px;
+}
+.body_class{
+
+    background-color: #00C2FF; 
+
+}
+.main_content{
+
+    font-size: 20px;
+    color: rgb(1, 10, 87)
 }
