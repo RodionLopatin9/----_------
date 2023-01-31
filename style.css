@@ -10,6 +10,7 @@ padding:20px;
 }
 .link_header{
 
+color: rgb(255, 255, 255);
 text-decoration:none;
 padding:20px;
 
@@ -18,4 +19,15 @@ padding:20px;
 
 background-color: #236DDD;
 
+}
+.logo_rotor{
+
+   max-width: 50px; 
+
+}
+.button_header{
+
+    background-color: #00109D;
+    min-width: 200px;
+    min-height: 70px;
 }
