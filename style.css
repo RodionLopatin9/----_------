@@ -22,14 +22,14 @@
     padding: 0;
 }
 .logo_rotor{
-
+    vertical-align: middle;
    max-width: 100px; 
 
 }
 .button_header{
 
     background-color: #00109D;
-    min-width: 200px;
+    min-width: 220px;
     min-height: 70px;
 }
 .body_class{
