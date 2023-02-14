@@ -9,7 +9,8 @@
     margin-right: 150px;
 }
 .link_header{
-
+    font-weight: bold;
+    font-family: "Bebas Neue", sans-serif;
     color: rgb(255, 255, 255);
     text-decoration:none;
     padding:20px;
@@ -31,16 +32,23 @@
     background-color: #00109D;
     min-width: 220px;
     min-height: 70px;
+
+}
+.button_header:hover {
+    background-color: #0099ff;
+    
+    
 }
 .body_class{
 
     background-color: #00C2FF; 
-
+    margin: 0;
 }
 .main_content{
 
     font-size: 20px;
-    color: rgb(1, 10, 87)
+    color: rgb(1, 10, 87);
+    margin: 15px; 
 }
 .main_photo{
 
