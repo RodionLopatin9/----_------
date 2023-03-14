@@ -32,6 +32,10 @@
     background-color: #00109D;
     min-width: 220px;
     min-height: 70px;
+    color: #fff;
+    font-weight: bold;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 25px;
 
 }
 .button_header:hover {
@@ -63,3 +67,56 @@
     align-items: center;
     text-align: center;
 }
+
+
+
+.slider{
+    border: 2px solid black;
+    height: 500px;
+    width: 1000px;
+    margin: 100px auto;
+    overflow: hidden;
+}
+
+.slider-line{
+    height: 256px;
+    width: 1280px;
+    display: flex;
+    position: relative;
+    left: 0;
+}
+
+.btn-slider{
+    text-align: center;
+}
+
+
+.up-arrow{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    width: 70px;
+    height: 70px;
+    background: url(./img/arrow-up.png);
+    background-size: cover;
+    cursor: pointer;
+    z-index: 999;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+
+.up-arrow.active{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
