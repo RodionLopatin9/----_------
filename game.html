@@ -9,6 +9,7 @@
     <title>Document</title>
 </head>
 <body class="body_class">
+    
 
     <header class="header_"> <!--шапка сайта-->
         <ul class="list_header">
@@ -18,18 +19,27 @@
             <li class="li_header"><button class="button_header"><a class="link_header" href="match.html">МАТЧИ</a></button></li>
             <li class="li_header"><button class="button_header"><a class="link_header" href="teams.html">КОМАНДЫ</a></button></li> 
             <li class="li_header"><button class="button_header"><a class="link_header" href="game.html">МИНИ ИГРЫ</a></button></li>
-
+            <li class="li_header"></li><button class="button_header" id="btn_modal_window">ИНФО ОБ АВТОРЕ</button></li>
         </ul>
 
-</header>
+    </header>
+
 <div id="field">
-    <img src="https://ru.js.cx/clipart/ball.svg" id="ball"> . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-    . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-    </div>
+    <img src="https://ru.js.cx/clipart/ball.svg" id="ball"> </div>
+
+
+    <div id="my_modal" class="modal">
+        <div class="modal_content">
+          <span class="close_modal_window">×</span>
+          <p>Сайт был реализован в рамках индивидуального проекта по предмету "информатика" учеником 10 "а" класса Лопатиным Родионом. Цель - собрать информацию о футбольном клубе "Ротор" в удобном формате.</p>
+        </div>
+</div>
+    
 <div class="footer">  
     <a href="https://vk.com/m1sticgg">© Родион</a>
 </div>
-<script scr="./game.js"></script>
+<script src="game.js"></script>
+<script src="script.js"></script>
 </body>
 
 
