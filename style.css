@@ -151,7 +151,6 @@
 
 .item{
    padding: 40px;
-   
    font-size: 25px; 
    
 }
@@ -160,7 +159,27 @@
     max-width: 500px;
 }
 
+@media screen and (max-width: 912px){
+  
+  .container_content{
+    display:block;
 
+    justify-content: none;
+
+    margin: 50px;
+    margin-top: 100px;
+  }
+  
+
+  .header_{
+
+    background-color: #236DDD;
+    margin: 0;
+    padding: 0;
+    width: 912px;
+}
+
+}
 
 
 
