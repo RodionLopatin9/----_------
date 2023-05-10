@@ -171,7 +171,9 @@
   }
   
   .item{
-    width: 800px;
+    width: 700px;
+    align-items: center;
+    font-size: 35px; 
   }
 
   .header_{
@@ -180,8 +182,9 @@
     margin: 0;
     padding: 0;
     width: 912px;
-}
+  }
 
+  
 }
 
 
